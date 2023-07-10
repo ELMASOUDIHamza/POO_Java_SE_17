@@ -24,10 +24,6 @@ public abstract class RoomImpl implements IRoom {
         this.name = name;
     }
 //
-    @Override
-    public void reserveRoom(IAppointment appointment){
-        setAvailable(false);
-    }
 
     @Override
     public void freeUpRoom() {

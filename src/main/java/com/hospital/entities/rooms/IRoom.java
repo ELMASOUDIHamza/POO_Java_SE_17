@@ -1,6 +1,10 @@
 package com.hospital.entities.rooms;
 
 import com.hospital.entities.appointment.IAppointment;
+import com.hospital.entities.persons.IPerson;
+
+import java.util.LinkedList;
+import java.util.List;
 
 /***
  * Here we can use template method pattern
@@ -8,9 +12,10 @@ import com.hospital.entities.appointment.IAppointment;
  * to implement it by different way
  */
 public interface IRoom {
-    void reserveRoom (IAppointment appointment);
-    void freeUpRoom ();
-    default void freeUp(IAppointment appointment){
-        appointment.
+    List<IAppointment> appointmentList = new LinkedList<>();
+    default boolean reserveRoom (IAppointment appointment){
+        return appointmentList.add(appointment);
     }
+    void freeUp(IAppointment appointment);
+    void freeUpRoom();
 }
