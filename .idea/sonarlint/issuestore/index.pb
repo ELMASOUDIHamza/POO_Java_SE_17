@@ -37,7 +37,5 @@ vsrc/main/java/com/hospital/entities/hospitals_departments_divisions/departments
 _src/main/java/com/hospital/entities/hospitals_departments_divisions/hospitals/HospitalImpl.java,e\c\ecde546d5e1eacc2e19ae2d4733cba0c038102ef
 Œ
 \src/main/java/com/hospital/entities/hospitals_departments_divisions/hospitals/IHospital.java,4\6\4649f5107cdec8e97780833779697ce799074a92
-r
-Bsrc/main/java/com/hospital/exceptions/PersonNotFoundException.java,b\b\bb6174546bbc737e566e69f47c584516093ca62f
 b
 2src/main/java/com/hospital/enums/HospitalType.java,0\e\0e91328b1bdec9cf2f897528b8c93aa1d2d2f505

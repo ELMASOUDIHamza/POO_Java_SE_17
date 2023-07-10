@@ -25,8 +25,7 @@ public interface IEmployeeTask {
     List<IPerson> checkAvailableDoctors(LocalDateTime dateTime )throws Exception;
     List<LocalDateTime> checkAvailableDoctors(LocalDateTime dateTime , IPerson doctor)throws Exception;
     List<IPerson> checkAvailableDoctors(LocalDateTime dateTime , DoctorSpeciality doctorSpeciality)throws Exception;
-    String checkSchedule(IPerson doctor) throws NullPointerException,PersonNotFoundException;
-    String enrollPatient(IPerson patient, float amount) throws PersonNotFoundException, NumberFormatException ;
+    String checkSchedule(IPerson doctor) throws NullPointerException;
     String generatePrescription(IPerson patient, String prescription) throws PersonNotFoundException, EmployeeTaskNotRightException;
     boolean isManager(IDivision division);
 
