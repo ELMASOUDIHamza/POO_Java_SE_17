@@ -81,7 +81,8 @@ public  class Employee extends PersonImpl implements IEmployeeTask {
 
     @Override
     public String checkSchedule(IPerson doctor) throws NullPointerException, PersonNotFoundException {
-        return null;
+        return appointmentList.stream().filter(appointment -> ((AppointmentImpl)appointment).
+                getDoctor().equals(doctor)).map(appointment -> ((AppointmentImpl) appointment).getDateTime()).toString();
     }
 
     @Override
