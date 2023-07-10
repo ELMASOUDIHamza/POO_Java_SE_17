@@ -1,0 +1,32 @@
+
+Q
+java:S3740"/Provide the parametrized type for this generic.(Ρ«€Ψώÿÿÿÿ8ζΟ‹1
+Q
+java:S3740"/Provide the parametrized type for this generic.(Ρ«€Ψώÿÿÿÿ8ζΟ‹1
+L
+java:S3740"/Provide the parametrized type for this generic.(ΎΪθΖ8ηΟ‹1
+L
+java:S3740"/Provide the parametrized type for this generic.(ΎΪθΖ8ηΟ‹1
+Q
+java:S3740 "/Provide the parametrized type for this generic.(ερ¦λωÿÿÿÿ8ηΟ‹1
+Q
+java:S3740 "/Provide the parametrized type for this generic.(ερ¦λωÿÿÿÿ8ηΟ‹1
+L
+java:S3740!"/Provide the parametrized type for this generic.(®υσ8ηΟ‹1
+L
+java:S3740!"/Provide the parametrized type for this generic.(®υσ8ηΟ‹1
+Q
+java:S3740""/Provide the parametrized type for this generic.(²χύÿÿÿÿ8ηΟ‹1
+Q
+java:S3740""/Provide the parametrized type for this generic.(²χύÿÿÿÿ8ηΟ‹1
+T
+java:S1854"7Remove this useless assignment to local variable "map".(Φ‚κ”8ƒ‚Ο‹1
+¨
+java:S1130	"…Remove the declaration of thrown exception 'com.hospital.exceptions.AddDivisionException', as it cannot be thrown from method's body.(Θιϊ£ψÿÿÿÿ8„‚Ο‹1
+X	java:S125"<This block of commented-out lines of code should be removed.(“›’8†‚Ο‹1
+E
+java:S1481"(Remove this unused "map" local variable.(Φ‚κ”8‚Ο‹1
+]	java:S125#"<This block of commented-out lines of code should be removed.(ρ¥ωψÿÿÿÿ8“‚Ο‹1
+U	java:S106,"9Replace this use of System.out or System.err by a logger.(Ξρλ8›‚Ο‹1
+]	java:S125@"<This block of commented-out lines of code should be removed.(†Πγÿωÿÿÿÿ8‚Ο‹1
+]	java:S125I"<This block of commented-out lines of code should be removed.(ιΨ»Ϊϋÿÿÿÿ8‚Ο‹1
