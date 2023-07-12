@@ -1,6 +1,6 @@
 package com.hospital.entities.rooms;
 
-public abstract class RoomImpl implements IRoom {
+public class RoomImpl implements IRoom {
     protected boolean isAvailable ;
     protected int idRoom ;
     protected String name ;
