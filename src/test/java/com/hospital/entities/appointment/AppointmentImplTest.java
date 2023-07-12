@@ -3,9 +3,16 @@ package com.hospital.entities.appointment;
 import org.junit.jupiter.api.Test;
 
 public class AppointmentImplTest {
-
-    @Test
-    public void test(){
-
-    }
+//    @Test
+//    void releaseAppointmentTest() {
+//        IAppointment appointmentTest = new AppointmentImpl()
+//    }
+//
+//    @Test
+//    void updateAppointment() {
+//    }
+//
+//    @Test
+//    void testUpdateAppointment() {
+//    }
 }

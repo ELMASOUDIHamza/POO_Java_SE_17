@@ -20,11 +20,12 @@ public class AppointmentImpl implements IAppointment{
     public AppointmentImpl() {
         this.id = UUID.fromString(((Employee)doctor).getFullname().concat(dateTime.toString())).toString();
     }
-    public AppointmentImpl(LocalDateTime dateTime, RoomImpl room, IPerson patient) {
+    public AppointmentImpl(LocalDateTime dateTime, RoomImpl room, IPerson patient, IPerson doctor) {
         this();
         this.dateTime = dateTime;
         this.room = room;
         this.patient = patient;
+        this.doctor = doctor;
     }
 // Getters :
     public String getId() {
