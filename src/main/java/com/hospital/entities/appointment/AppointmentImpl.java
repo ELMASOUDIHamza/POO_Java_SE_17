@@ -4,6 +4,7 @@ import com.hospital.entities.persons.Employee;
 import com.hospital.entities.persons.IPerson;
 import com.hospital.entities.rooms.IRoom;
 import com.hospital.entities.rooms.RoomImpl;
+import com.hospital.exceptions.NullDateTimeException;
 
 import java.time.DateTimeException;
 import java.time.LocalDateTime;
@@ -18,7 +19,12 @@ public class AppointmentImpl implements IAppointment{
     private boolean isPast ;
 // Constructors :
     public AppointmentImpl() {
-        this.id = UUID.fromString(((Employee)doctor).getFullname().concat(dateTime.toString())).toString();
+//        if( !((Employee)doctor).getFullname().equals(null) && !dateTime.equals(null))
+//        this.id = UUID.fromString(((Employee)doctor).getFullname().concat(dateTime.toString())).toString();
+//        else    this.id = null ;
+    }
+    public AppointmentImpl(String id) {
+        this.id = id;
     }
     public AppointmentImpl(LocalDateTime dateTime, RoomImpl room, IPerson patient, IPerson doctor) {
         this();
@@ -51,7 +57,13 @@ public class AppointmentImpl implements IAppointment{
     public boolean isPast() {
         return isPast;
     }
-// Setters :
+//Setters :
+    public void setId(String id) {
+        this.id = id;
+    }
+    public void setRoom(IRoom room) {
+        this.room = room;
+    }
     public void setDateTime(LocalDateTime dateTime) {
         this.dateTime = dateTime;
     }
@@ -73,8 +85,9 @@ public class AppointmentImpl implements IAppointment{
     }
 // Implemented methods :
     @Override
-    public boolean releaseAppointment() throws NullPointerException {
-        if (dateTime.isAfter(LocalDateTime.now()) ) this.setPast(true); // Can we remove it in this case ?
+    public boolean releaseAppointment() throws NullDateTimeException {
+        if (dateTime == null) throw new NullDateTimeException(dateTime,"Error! Appointment date is null.");
+         else if (dateTime.isAfter(LocalDateTime.now()) ) this.setPast(true); // Can we remove it in this case ?
         return isPast();
     }
 

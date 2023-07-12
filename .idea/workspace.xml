@@ -5,13 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa5a253a-7aed-4893-a6de-e04c0b60b502" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hospital/exceptions/NullDateTimeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/146e518f133a3770fbe04e80d96e90566322d8d4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/1783f137b487afe03a13797c5a002be6ed84c773" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/3/238116e40bac909eb9272b2fcd2e4a10c0cb3736" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2c6f6f90829e60c87ec8afeec57c56daf0b5720f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/4/146e518f133a3770fbe04e80d96e90566322d8d4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/7/1783f137b487afe03a13797c5a002be6ed84c773" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/3/238116e40bac909eb9272b2fcd2e4a10c0cb3736" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/c/2c6f6f90829e60c87ec8afeec57c56daf0b5720f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hospital/entities/appointment/AppointmentImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hospital/entities/appointment/AppointmentImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hospital/entities/appointment/IAppointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hospital/entities/appointment/IAppointment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hospital/entities/persons/PersonImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hospital/entities/persons/PersonImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hospital/entities/appointment/AppointmentImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hospital/entities/appointment/AppointmentImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hospital/entities/appointment/AppointmentImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hospital/entities/appointment/AppointmentImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hospital/entities/appointment/IAppointment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hospital/entities/appointment/IAppointment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hospital/entities/persons/PersonImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hospital/entities/persons/PersonImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hospital/entities/appointment/AppointmentImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hospital/entities/appointment/AppointmentImplTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="0" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,7 +82,7 @@
       <recent name="D:\HT_Ingenierie\Autoformation 2023\Java\hospital_java_se_17\src\main\java\com\hospital\entities\hospitals_and_departments\hospitals" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.AppointmentImplTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="hospital_java_se_17" />
@@ -74,8 +96,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppointmentImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hospital_java_se_17" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hospital.entities.appointment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hospital.entities.appointment" />
+      <option name="MAIN_CLASS_NAME" value="com.hospital.entities.appointment.AppointmentImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppointmentImplTest.releaseAppointmentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hospital_java_se_17" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hospital.entities.appointment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hospital.entities.appointment" />
+      <option name="MAIN_CLASS_NAME" value="com.hospital.entities.appointment.AppointmentImplTest" />
+      <option name="METHOD_NAME" value="releaseAppointmentTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppointmentImplTest" />
+        <item itemvalue="JUnit.AppointmentImplTest.releaseAppointmentTest" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -113,5 +168,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/hospital_java_se_17$AppointmentImplTest.ic" NAME="AppointmentImplTest Coverage Results" MODIFIED="1689178497165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hospital.entities.appointment.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/hospital_java_se_17$AppointmentImplTest_releaseAppointmentTest.ic" NAME="AppointmentImplTest.releaseAppointmentTest Coverage Results" MODIFIED="1689176830382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hospital.entities.appointment.*</FILTER>
+    </SUITE>
   </component>
 </project>

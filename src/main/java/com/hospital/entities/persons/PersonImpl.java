@@ -18,7 +18,7 @@ public abstract class PersonImpl implements IPerson {
 // Constructors :
     public PersonImpl() { }
     public PersonImpl(Long id) {
-        this.id = Objects.requireNonNull(id);
+        this.id = id;
     }
     public PersonImpl(Long id, String fullname) {
         this(id);
