@@ -57,7 +57,7 @@ public class RoomImpl implements IRoom {
         this.roomType = roomType;
     }
 
-    //Implemented methods :
+//Implemented methods :
     @Override
     public void freeUpRoom() {
         this.setAvailable(true);
