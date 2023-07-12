@@ -1,9 +1,5 @@
 package com.hospital.entities.rooms;
 
-import com.hospital.entities.appointment.IAppointment;
-
-import java.util.*;
-
 public abstract class RoomImpl implements IRoom {
     protected boolean isAvailable ;
     protected int idRoom ;

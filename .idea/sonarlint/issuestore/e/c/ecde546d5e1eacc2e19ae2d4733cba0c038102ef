@@ -1,8 +1,0 @@
-
-
-java:S14883"]Immediately return this expression instead of assigning it to the temporary variable "infos".(‹ëÝéùÿÿÿÿ8»×èá‘1
-]
-java:S1226-"AIntroduce a new variable instead of reusing the parameter "open".(×†£v8¾×èá‘1
-X	java:S125>"<This block of commented-out lines of code should be removed.(Î½‘Ö8Ñ×èá‘1
-I
-java:S1068",Remove this unused "roomList" private field.(žõÜ×8Ô×èá‘1

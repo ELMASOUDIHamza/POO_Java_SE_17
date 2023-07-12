@@ -27,8 +27,6 @@ vsrc/main/java/com/hospital/entities/hospitals_departments_divisions/departments
 }src/main/java/com/hospital/entities/hospitals_departments_divisions/departments_and_divisions/departments/DepartmentImpl.java,7\f\7f5e8dec7e22fe0e3b23b2b9cc785c95022df9c3
 å
 \src/main/java/com/hospital/entities/hospitals_departments_divisions/hospitals/IHospital.java,4\6\4649f5107cdec8e97780833779697ce799074a92
-è
-_src/main/java/com/hospital/entities/hospitals_departments_divisions/hospitals/HospitalImpl.java,e\c\ecde546d5e1eacc2e19ae2d4733cba0c038102ef
 b
 2src/main/java/com/hospital/enums/HospitalType.java,0\e\0e91328b1bdec9cf2f897528b8c93aa1d2d2f505
 h
