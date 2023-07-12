@@ -16,6 +16,5 @@ public interface IRoom {
     default boolean reserveRoom (IAppointment appointment){
         return appointmentList.add(appointment);
     }
-    void freeUp(IAppointment appointment);
     void freeUpRoom();
 }

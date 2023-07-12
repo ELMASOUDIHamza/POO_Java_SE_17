@@ -1,0 +1,13 @@
+
+e
+java:S1226g"HIntroduce a new variable instead of reusing the parameter "subdivision".(Ñş¤ó8ûû¬Œ1
+]	java:S1257"<This block of commented-out lines of code should be removed.(Õîø»şÿÿÿÿ8Ÿü¬Œ1
+m
+java:S1858b"K"getDivisionParent" returns a string, there's no need to call "toString()".(šÕ¤ãûÿÿÿÿ8©ü¬Œ1
+X	java:S125n"<This block of commented-out lines of code should be removed.(„§ñ£8¬ü¬Œ1
+N
+java:S1611o"1Remove the parentheses around the "emp" parameter(úèĞ 8­ü¬Œ1
+s
+java:S2159o"VRemove this call to "equals"; comparisons between unrelated types always return false.(úèĞ 8­ü¬Œ1
+O
+java:S1068"2Remove this unused "divisionParent" private field.(í²•¤8°ü¬Œ1
