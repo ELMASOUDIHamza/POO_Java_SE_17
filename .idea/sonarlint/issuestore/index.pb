@@ -7,10 +7,6 @@ o
 ?src/main/java/com/hospital/exceptions/AddDivisionException.java,5\2\52bc27b94b7177ad8720d2e5025623a99df55ebd
 v
 Fsrc/main/java/com/hospital/exceptions/DepartmentNotFoundException.java,1\3\13fc02728f000537c115c3bb7d85011e19799a2d
-q
-Asrc/main/java/com/hospital/entities/rooms/ConsultingRoomImpl.java,5\a\5aff80a442f90d95397cfd6cb02dcf6d98ed08d0
-p
-@src/main/java/com/hospital/entities/rooms/OperatingRoomImpl.java,2\5\25fb5210028b2e9d4c6602af291cfe9c36b98c7f
 d
 4src/main/java/com/hospital/enums/AvenueOrStreet.java,6\8\68e18455817e5a266c1ba88501210c1319b6a581
 S
